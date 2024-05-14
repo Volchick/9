@@ -1,0 +1,27 @@
+.card {
+    border: 1px solid #000;
+    border-radius: 6px;
+    margin: 10px;
+    background-color: white;
+    position: relative;
+    width: 615px;
+    left: 0px;
+    top: 0px;
+    display: inline-block;
+}
+
+.cardRegular {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
+}
+
+.cardRed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 6px;
+    background: linear-gradient(90deg, #FFB199 0%, #FF0844 100%);
+}

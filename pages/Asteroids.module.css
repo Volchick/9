@@ -1,0 +1,50 @@
+.showDangerousOnly {
+    margin-top: px;
+    margin-left: 40px;
+}
+
+.distanceMode {
+    width: 25em;
+    max-width: 100%;
+    min-height: 2em;
+    margin-left: auto;
+    font-size: 17px;
+    color: #222;
+}
+
+.distanceButtons {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #F5F5F5;
+    background-color: #2B59DE;
+}
+
+
+.filterConteiner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    margin: 20px;
+    height: 200px;
+    border-radius: 100px;
+    box-shadow: 0 0 0 3px #494ee3, 0 0 13px #333;
+}
+
+img {
+    transform: translate(0,-50%);
+    height: auto;
+    width: auto;
+    object-fit: cover;
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+}
